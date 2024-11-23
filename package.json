@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "API for cancer prediction using ML model",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "machine-learning",
+    "prediction",
+    "api",
+    "express"
+  ],
+  "author": "Pren",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "@tensorflow/tfjs-node": "^3.21.1",
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
